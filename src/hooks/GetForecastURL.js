@@ -4,8 +4,8 @@ import { WEATHER_API } from "../constants/apis";
 import { DEFAULT_LAT, DEFAULT_LNG } from "../constants/defaults";
 
 export default function GetForecastURL({ lat, lng }) {
-  lat = DEFAULT_LAT; //lat || DEFAULT_LAT;
-  lng = DEFAULT_LNG; // lng || DEFAULT_LNG;
+  lat = lat || DEFAULT_LAT;
+  lng = lng || DEFAULT_LNG;
   const [forecastURL, setForecastURL] = React.useState("");
   const [city, setCity] = React.useState("");
   const [state, setState] = React.useState("");

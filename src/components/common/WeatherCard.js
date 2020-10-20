@@ -12,8 +12,8 @@ const useStyles = makeStyles({
   weatherImage: {
     display: "flex",
     justifyContent: "center",
-    height: "100px",
-    width: "100px",
+    height: "10vh",
+    width: "10vh",
     alignItems: "center",
     margin: "20px",
   },
@@ -25,6 +25,9 @@ const useStyles = makeStyles({
   },
   content: {
     display: "flex",
+  },
+  details: {
+    textAlign: "left",
   },
 });
 
@@ -48,9 +51,15 @@ export default function WeatherCard({
           <Typography gutterBottom variant="h5" component="h2">
             {temperature}°{temperatureUnit}
           </Typography>
-          <Typography variant="subtitle1">{name}</Typography>
-          <Typography variant="body1">{shortForecast}</Typography>
-          <Typography variant="caption">Wind Speed: {windSpeed}</Typography>
+          <Typography className={classes.details} variant="body2">
+            {name}
+          </Typography>
+          <Typography className={classes.details} variant="caption">
+            {shortForecast}
+          </Typography>
+          <Typography className={classes.details} variant="caption">
+            Wind Speed: {windSpeed}
+          </Typography>
         </div>
       </CardContent>
     </Card>

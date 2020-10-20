@@ -7,7 +7,7 @@ function LocationHeader({ city, state }) {
       style={{
         padding: "10px",
         position: "fixed",
-        zIndex: 10,
+        zIndex: 1,
         width: "100%",
       }}
     >
