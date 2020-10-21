@@ -1,6 +1,6 @@
 Thank you for providing an opportunity to prove my skills.
 
-Time : 1.5 hours
+Time : 2 hours
 
 I made following assumptions to complete the assignment, please let me know if any of below does not meet the requirements, I will be happy to add them in as re-submit the assignment.
 
