@@ -1,11 +1,8 @@
-Thank you for providing an opportunity to prove my skills.
 
-Time : 2 hours
-
-I made following assumptions to complete the assignment, please let me know if any of below does not meet the requirements, I will be happy to add them in as re-submit the assignment.
+Following assumption were made to complete and implement the weather-app case study.
 
 - The application picks the user location when/where(if the user allows location permission) possible if not the location default to Houston,Tx.
-- I bootstrapped the App using facebook's very own cli tool `react-create-app` which comes with all the required config to quickly spin a react app.
+- The App was bootstrapped using facebook's very own cli tool `react-create-app` which comes with all the required config to quickly spin a react app.
 - I used Material UI for building the components, due to the time constraint I did not put much effort on the CSS and leveraged out of the box Material UI components to build the UI
 - I showcased my custom hook building skills by creating three separate custom hooks and coupled to the view to fetch the data/userLocation. I follow the thumb rule of separating the view from logic so that it helps to separate the concerns.
 - Instead of using a icon for each type of weather, I leveraged the image provided by the Weather API to showcase the weather with a image, I felt like it quickly helps the user to get a sense of weather without actually reading the numbers.
