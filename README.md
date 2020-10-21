@@ -1,3 +1,16 @@
+Thank you for providing an opportunity to prove my skills.
+
+Time : 1.5 hours
+
+I made following assumptions to complete the assignment, please let me know if any of below does not meet the requirements, I will be happy to add them in as re-submit the assignment.
+
+- The application picks the user location when/where(if the user allows location permission) possible if not the location default to Houston,Tx.
+- I bootstrapped the App using facebook's very own cli tool `react-create-app` which comes with all the required config to quickly spin a react app.
+- I used Material UI for building the components, due to the time constraint I did not put much effort on the CSS and leveraged out of the box Material UI components to build the UI
+- I showcased my custom hook building skills by creating three separate custom hooks and coupled to the view to fetch the data/userLocation. I follow the thumb rule of separating the view from logic so that it helps to separate the concerns.
+- Instead of using a icon for each type of weather, I leveraged the image provided by the Weather API to showcase the weather with a image, I felt like it quickly helps the user to get a sense of weather without actually reading the numbers.
+- I focused more on the functionality over the UI design due to the time limit
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -12,11 +25,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### `yarn build`
 
 Builds the app for production to the `build` folder.<br />
@@ -27,42 +35,3 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

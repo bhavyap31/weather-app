@@ -1,18 +1,13 @@
-import {
-  Card,
-  CircularProgress,
-  GridList,
-  GridListTile,
-} from "@material-ui/core";
+import { Card, CircularProgress, List, ListItem } from "@material-ui/core";
 import React from "react";
 import WeatherCard from "./common/WeatherCard";
 import LocationHeader from "./LocationHeader";
-import GetForecastURL from "../hooks/GetForecastURL";
+import GetForecastOffice from "../hooks/GetForecastOffice";
 import GetForecast from "../hooks/GetForecast";
 import GetUserLocation from "../hooks/GetUserLocation";
 function Home() {
   const userLocation = GetUserLocation();
-  const { forecastURL, city, state } = GetForecastURL(userLocation);
+  const { forecastURL, city, state } = GetForecastOffice(userLocation);
   const weatherData = GetForecast(forecastURL);
 
   if (!weatherData.length) {
@@ -21,13 +16,14 @@ function Home() {
   return (
     <Card>
       <LocationHeader city={city} state={state} />
-      <GridList style={{ marginTop: "60px" }}>
+      <List style={{ marginTop: "60px" }}>
+        {/* ^^ Example of using inline styles */}
         {weatherData.map((eachDay) => (
-          <GridListTile key={eachDay.name}>
+          <ListItem key={eachDay.name}>
             <WeatherCard eachDay={eachDay} />
-          </GridListTile>
+          </ListItem>
         ))}
-      </GridList>
+      </List>
     </Card>
   );
 }

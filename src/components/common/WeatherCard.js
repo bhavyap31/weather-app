@@ -1,21 +1,24 @@
 import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import Card from "@material-ui/core/Card";
-import CardContent from "@material-ui/core/CardContent";
-import Typography from "@material-ui/core/Typography";
-import { Avatar } from "@material-ui/core";
+import {
+  Typography,
+  Card,
+  CardContent,
+  Avatar,
+  makeStyles,
+} from "@material-ui/core";
 
 const useStyles = makeStyles({
   root: {
     margin: "5px",
+    width: "100%",
   },
   weatherImage: {
     display: "flex",
+    alignItems: "center",
     justifyContent: "center",
+    margin: "20px",
     height: "10vh",
     width: "10vh",
-    alignItems: "center",
-    margin: "20px",
   },
   textContainer: {
     display: "flex",

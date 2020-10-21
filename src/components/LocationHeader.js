@@ -12,7 +12,7 @@ function LocationHeader({ city, state }) {
       }}
     >
       <Typography variant="h5">
-        {city}, {state}
+        Location: {city}, {state}
       </Typography>
     </Card>
   );
