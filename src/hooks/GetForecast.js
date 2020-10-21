@@ -12,7 +12,7 @@ export default function GetForecast(forecastURL) {
           setWeatherData(get(weatherResponse, "properties.periods"));
         })
         .catch((err) => {
-          console.log("unable to fetch forecast URL", err);
+          console.log("unable to fetch forecast", err);
         });
     }
   }, [forecastURL]);
